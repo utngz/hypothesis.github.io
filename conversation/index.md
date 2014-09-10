@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Conversation
 
 ## Mailing List
