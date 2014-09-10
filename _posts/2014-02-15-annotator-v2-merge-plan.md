@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 At the time of writing (January 2014), hypothesis/h is using the observer branch of hypothesis/annotator, which diverged from okfn/annotator some time ago. Additionally, hypothesis/h embeds okfn/annotator-store but is currently diverged (though less so than annotator) primarily for some basic model and index changes.
 
 This document is meant to provide an overview of the components and develop a plan to move both forward and toward convergence (defined by greater code-sharing, with enhancements and fixes rapidly made available to the community).
