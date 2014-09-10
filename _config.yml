@@ -1,3 +1,8 @@
 name: Hypothes.is Project
 markdown: redcarpet
-pygments: true
+highlighter: pygments
+gems:
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
