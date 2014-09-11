@@ -29,6 +29,12 @@ a         { color: #00a; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
+.avatar {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+
 /*****************************************************************************/
 /*
 /* Home

@@ -1,9 +1,28 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
-<p class="meta">{{ page.date | date_to_string }}</p>
+<!-- based the MIT licensed https://github.com/jekyll/jekyll/blob/master/site/_layouts/news_item.html -->
+<article>
+  <h2>
+    {{ page.title }}
+    <a href="{{ page.url }}" class="permalink" title="Permalink">∞</a>
+  </h2>
+  <span class="post-category">
+    <span class="label">
+      {{ page.categories | array_to_sentence_string }}
+    </span>
+  </span>
+  <div class="post-meta meta">
+    <span class="post-date">
+      {{ page.date | date_to_string }}
+    </span>
+    <a href="https://github.com/{{ page.author }}" class="post-author">
+      <img src="https://github.com/{{ page.author }}.png" class="avatar" alt="{{ page.author }}">
+      {{ page.author }}
+    </a>
+  </div>
+  <div class="post-content post">
+    {{ content }}
+  </div>
+</article>
 
-<div class="post">
-{{ content }}
-</div>
