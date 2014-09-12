@@ -8,10 +8,15 @@ The Charge:
 > ...lay out the steps forward for Hypothes.is as a product, development and services organization to take in order to optimize it's software, it's organization, the way it communicates and carries itself in order to best encourage the uptake of its products and services by, and community contributions from the widest possible audience of developers, website owners, users, etc.
 > -- @dwhly
 
+## What Success Looks Like
+Developers everywhere building Open Annotation Data Model (and other output from the W3C Annotations WG) into All The Things--ideally via Hypothes.is code (& ephimera) that they are actively collaborating on.
+
+All The Things === The Web, Browsers, Document Viewers, File Formats, Anything with Reference-able Stuff (even stuff IRL).
+
 ### To Optimize:
 In order to "best encourage the uptake of its products and services by, and community contributions from the widest possible audience of developers, website owners, users, etc.
 
-#### It's Software:
+#### It's Software (or one's we depend on and participate in):
 * h
   * noted
 * AnnotatorJS
