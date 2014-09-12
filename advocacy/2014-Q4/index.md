@@ -1,8 +1,10 @@
 ---
-published: false
+layout: default
+title: Advocating for Annotation - Q4 2014
+author: bigbluehat
 ---
 
-## Advocating for Annotation - Q4 2014
+## {{ page.title }}
 
 The Charge:
 > ...lay out the steps forward for Hypothes.is as a product, development and services organization to take in order to optimize it's software, it's organization, the way it communicates and carries itself in order to best encourage the uptake of its products and services by, and community contributions from the widest possible audience of developers, website owners, users, etc.
