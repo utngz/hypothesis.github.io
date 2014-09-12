@@ -4,8 +4,6 @@ title: Project Site Updates and Plans
 author: bigbluehat
 ---
 
-# {{title}}
-
 I've dug into Jekyll, and am pretty happy with how things have gone so far.
 There's something about the static-ness of it all that feels refreshing.
 :smiley_cat:

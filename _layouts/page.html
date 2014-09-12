@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div id="article">
+  <div class="article-title">{{ page.title }}</div>
+  <p class="meta">
+    {% if page.date %}
+    <small>&nbsp;<i class="fa fa-calendar-o"></i>
+      <time>{{ page.date | date_to_string}}<time>
+    </small>
+    {% endif %}
+    </p>
+  <hr/>
+  <div>
+    {{ content }}
+  </div>
+</div>
+
+{% include pager.html %}

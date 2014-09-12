@@ -3,6 +3,8 @@ layout: default
 title: The Hypothes.is Project Team
 ---
 
+# {{ page.title }}
+
 Just of a few of the folks hacking Hypothes.is.
 
 * @aron

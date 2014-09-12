@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }} | {{ site.name }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ site.description }}">
+  <link href="{{ site.baseurl }}/stylesheets/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ site.baseurl }}/stylesheets/hc.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif] d-->
+    </head>
+    <body>
+<div class="nav-toggle"><i class="fa fa-bars fa-2x"></i> Herring Cove </div>
+      <div id = "wrapper">
+
+
+<div class="navbar navbar-default" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <p class="navbar-brand">{{ site.name }}</p>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            {{% include site_nav.html }}
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+
+       <!-- Sidebar -->
+       <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand"><a href="{{ site.baseurl }}/">
+            <h4>{{ site.name }}</h4>
+          </a>
+          {% if site.description %}
+          <h3>{{ site.description }}</h3>
+          {% endif %}
+          </li>
+          <hr />
+          {% include site_nav.html %}
+          <hr />
+          <div id="social-wrapper">
+           {% if site.twitter %}<li> <a href="{{ site.twitter }}"><i class="fa fa-twitter-square"></i> twitter</a></li>{% endif %}
+           {% if site.linkedin %}<li> <a href="{{ site.linkedin }}"><i class="fa fa-linkedin-square"></i> linkedin</a> </li>{% endif %}
+           {% if site.facebook %}<li> <a href="{{ site.facebook }}"><i class="fa fa-facebook-square"></i> facebook</a></li>{% endif %}
+           {% if site.github %}<li> <a href="{{ site.github }}"><i class="fa fa-github-square"></i> github</a> </li>{% endif %}
+         </div>
+         <hr />
+         <h5 class="text-center">Supported in part by...</h5>
+         <li><img src="{{ site.url }}/images/sloanlogo.jpg" /></li>
+         <li><img src="{{ site.url }}/images/knightlogo.png" /></li>
+         <li><img src="{{ site.url }}/images/shuttleworthlogo.jpeg" /></li>
+       </ul>
+     </div>
+
+
+
+     <div class="container">
+
