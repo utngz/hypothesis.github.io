@@ -16,13 +16,13 @@ All The Things === The Web, Browsers, Document Viewers, File Formats, Anything w
 ### To Optimize:
 In order to "best encourage the uptake of its products and services by, and community contributions from the widest possible audience of developers, website owners, users, etc.
 
-#### It's Software (or one's we depend on and participate in):
+#### Its Software (or one's we depend on and participate in):
 * h
   * noted
 * AnnotatorJS
 * Document (currnetly PDF.js) Viewer + h--aka via.hypothes.is
 
-### Catalogue
+##### Catalogue
 * annotation systems shipping Open Annotation representations (RDFa, JSON-LD, other)
 * CMS's shipping
   * embed.js embedding
@@ -50,6 +50,10 @@ In order to "best encourage the uptake of its products and services by, and comm
 * content management APIs with some "concept" of annotation OR abstract enough to support them
 
 ##### Metrics
+* who's using h, noted, AnnotatorJS, Open Annotation
+  * press coverage
+  * software using
+  * developers posting about
 * how many contributors to h, AnnotatorJS
   * employees
   * non-employees
@@ -68,10 +72,6 @@ In order to "best encourage the uptake of its products and services by, and comm
 * time to useable from zero
   * ex: `embed.js` is < 10 minutes
   * ex: `h` is > an hour--depending on platform
-* who's using h, noted, AnnotatorJS, Open Annotation
-  * press coverage
-  * software using
-  * developers posting about
 
 #### It's Organization
 * Contributing Guide
