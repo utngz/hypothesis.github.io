@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div vocab="http://schema.org/" class="event-wrapper"  typeof="Event">
+  {% if page.startDate %}
+  <span class="event-date" property="startDate" content="{{ page.startDate | date_to_xmlschema }}">{{ page.startDate | date_to_string }}</span>
+  {% if page.endDate %}
+   - <span class="event-date" property="endDate" content="{{ page.endDate | date_to_xmlschema }}">{{ page.endDate | date_to_string }}</span>
+  {% endif %}
+  {% endif %}
+  <div class="event-title">
+    <a propert="url" href="{{ page.eventUrl }}">
+      <span property="name">{{ page.title }}</span>
+    </a>
+  </div>
+  <div class="event-venue" property="location" typeof="Place">
+    <span property="name">{{ page.venueName }}</span>
+    <div class="address" property="address"  typeof="PostalAddress">
+      <span property="streetAddress">{{ page.venueStreetAddress }}</span><br>
+      <span property="addressLocality">{{ page.venueAddressLocality }}</span>,
+      <span property="addressRegion">{{ page.venueAddressRegion }}</span>
+      <span property="postalCode">{{ page.venuePostalCode }}</span>
+    </div>
+  </div>
+  <!--div class="event-time">9:30 PM</div-->
+  <h4>Attending</h4>
+  <ul>
+    {% for attendee in page.attendees %}
+      <li property="attendee">
+      <a href="https://github.com/{{ attendee }}">
+        <img property="image" src="https://github.com/{{ attendee }}.png" class="avatar" />
+        <span property="name">{{ attendee }}</span>
+      </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

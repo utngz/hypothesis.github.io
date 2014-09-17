@@ -2,7 +2,7 @@
 layout: default
 title: Hypothes.is Project
 ---
-{% assign posts = site.posts %}
+{% assign posts = site.posts | where: "layout", "post" %}
 
 <div class ="container">
   <h1>{{ page.title }}</h1>
@@ -10,6 +10,14 @@ title: Hypothes.is Project
     <h1>Recent Posts</h1>
     <div class="homepage-posts most-recent">
       {% include posts_list.html %}
+    </div>
+  </div>
+
+  {% assign events = site.posts | where: "layout", "event" %}
+  <div class="recent-posts">
+    <h1>Upcoming Events</h1>
+    <div class="homepage-posts most-recent">
+      {% include events_list.html %}
     </div>
   </div>
 </div>

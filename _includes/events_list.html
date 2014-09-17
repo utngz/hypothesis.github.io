@@ -1,0 +1,9 @@
+<ul class="posts">
+  {% for event in events %}
+    <li>
+      <time>{{ event.startDate | date_to_string }}</time>
+      {% if event.endDate %}- <time>{{ event.endDate | date_to_string }}</time>{% endif %}
+    &raquo; <a href="{{ event.url }}">{{ event.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
