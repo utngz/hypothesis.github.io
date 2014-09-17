@@ -10,7 +10,7 @@ layout: default
   {% endif %}
   {% endif %}
   <div class="event-title">
-    <a propert="url" href="{{ page.eventUrl }}">
+    <a property="url" href="{{ page.eventUrl }}">
       <span property="name">{{ page.title }}</span>
     </a>
   </div>
@@ -29,7 +29,8 @@ layout: default
     {% for attendee in page.attendees %}
       <li property="attendee">
       <a href="https://github.com/{{ attendee }}">
-        <img property="image" src="https://github.com/{{ attendee }}.png" class="avatar" />
+        <img property="image" src="https://github.com/{{ attendee }}.png"
+          class="avatar" alt="avatar of {{ attendee }}" />
         <span property="name">{{ attendee }}</span>
       </a>
       </li>
