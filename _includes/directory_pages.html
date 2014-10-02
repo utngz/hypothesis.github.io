@@ -1,0 +1,20 @@
+<ul class="posts">
+  {% for post in posts %}
+    {% assign topdir = post.path | split: '/' | first %}
+    {% assign lastdir = post.path | split: '/' | last %}
+
+    {% if current_path and topdir == current_path and lastdir != 'index.html' %}
+    <li>
+    {% if post.date %}
+    <time>{{ post.date | date_to_string }}</time>
+    {% endif %}
+    &raquo; <a href="{{ post.url }}">{{ post.title }}</a>
+      by
+      <a href="https://github.com/{{ post.author }}" class="post-author">
+        <img src="https://github.com/{{ post.author }}.png" class="avatar" alt="{{ post.author }}">
+        {{ post.author }}
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
