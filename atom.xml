@@ -23,7 +23,16 @@
       <name>{{ post.author }}</name>
       <uri>http://{{ site.domain }}{{ site.baseurl }}/team/{{ post.author }}</uri>
     </author>
-    <content type="html">{{ post.content | xml_escape }}</content>
+    <content type="html">
+      {% if post.layout != 'event' %}
+        {{ post.content | xml_escape }}
+      {% else %}
+        {% capture event %}
+          {% include event.html %}
+        {% endcapture %}
+        {{ event | xml_escape }}
+      {% endif %}
+    </content>
   </entry>
   {% endfor %}
 </feed>
