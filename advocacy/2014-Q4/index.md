@@ -16,7 +16,7 @@ All The Things === The Web, Browsers, Document Viewers, File Formats, Anything w
 ### To Optimize:
 In order to "best encourage the uptake of its products and services by, and community contributions from the widest possible audience of developers, website owners, users, etc.
 
-#### Its Software (or one's we depend on and participate in):
+#### Its Software (or ones we depend on and participate in):
 * h
   * noted
 * AnnotatorJS
@@ -73,7 +73,7 @@ In order to "best encourage the uptake of its products and services by, and comm
   * ex: `embed.js` is < 10 minutes
   * ex: `h` is > an hour--depending on platform
 
-#### It's Organization
+#### Its Organization
 * Contributing Guide
 * Progress Reporting
   * celebrate the small wins
@@ -82,7 +82,7 @@ In order to "best encourage the uptake of its products and services by, and comm
   * don't *only* dream about the future
 * understand and document our decision making / collaboration processes
 
-#### It's Communications & Carriage
+#### Its Communications & Carriage
 * regular cadence of
   * blog posts
   * events
