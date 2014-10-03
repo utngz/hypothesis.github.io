@@ -1,4 +1,8 @@
 title: Hypothes.is Project
+description: an open platform for the collaborative evaluation of knowledge
+author: The Hypothes.is Project
+email: dev@hypothes.is
+
 markdown: redcarpet
 highlighter: pygments
 github: http://www.github.com/hypothesis

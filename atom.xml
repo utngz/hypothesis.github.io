@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>{{ site.title | xml_escpae }}</title>
   <link href="{{ site.baseurl }}"/>
-  <link type="application/atom+xml" rel="self" href="{{ site.baseurl }}{{ page.url }}"/>
+  <link type="application/atom+xml" rel="self" href="{{ page.url }}"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.baseurl }}</id>
   <author>
@@ -21,7 +21,7 @@
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <author>
       <name>{{ post.author }}</name>
-      <uri>{{ site.baseurl }}{{ page.url }}</uri>
+      <uri>{{ site.baseurl }}/team/{{ post.author }}</uri>
     </author>
     <content type="html">{{ post.content | xml_escape }}</content>
   </entry>
