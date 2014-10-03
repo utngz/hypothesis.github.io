@@ -13,7 +13,7 @@ members to put their work/hacking logs into `team/{name}/_posts`. They'll show
 up on the main posts list--and attributed if you add `author: {name}` in the
 YAML front matter--and on your personal posts list at `/team/{name}/`.
 
-Here's [my index of posts]({{ site.url }}/team/bigbluehat/) for reference.
+Here's [my index of posts](http://{{ site.domain }}{{ site.baseurl }}/team/bigbluehat/) for reference.
 
 Most everything is Markdown. What isn't is HTML.
 
