@@ -20,7 +20,7 @@
       <title>{{ post.title }}</title>
       <link>http://{{ site.domain }}{{ site.baseurl }}{{ post.url }}</link>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>{{ post.email }} ({{ post.author }})</author>
+      <author>{{ site.data.authors | where: "github", post.author | map: 'email' }} ({{ post.author }})</author>
       <guid>http://{{ site.domain }}{{ site.baseurl }}{{ post.id }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>
