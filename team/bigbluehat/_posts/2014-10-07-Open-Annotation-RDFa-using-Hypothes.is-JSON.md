@@ -21,7 +21,7 @@ The `<textarea>` contents are the most interesting part (so far). There some min
 with some explanatory RDFa attributes that use the Open Annotation Core Data Model to "explain"
 the data in the markup.
 
-If you're curious what this might look in visualized in a graph or represented in [Turtle](http://www.w3.org/TR/turtle/), copy and paste the contents of that text area into [RDFa Play](http://rdfa.info/play).
+If you're curious what this might look like visualized as a graph or represented in [Turtle](http://www.w3.org/TR/turtle/), copy and paste the contents of that text area into [RDFa Play](http://rdfa.info/play).
 
 ### Feedback extremely welcome!
 
