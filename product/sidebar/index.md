@@ -1,10 +1,9 @@
 ---
 title: Sidebar Features
-layout: default
+author: aron
+layout: page
 ---
 
-{{ page.title }}
-================
 {:.no_toc}
 
 This document describes the features of the Hypothesis Sidebar project. Each
