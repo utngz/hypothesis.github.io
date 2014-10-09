@@ -2,12 +2,16 @@ title: Hypothes.is Project
 description: an open platform for the collaborative evaluation of knowledge
 author: The Hypothes.is Project
 email: dev@hypothes.is
-baseurl:
 
 domain: project.hypothes.is
 
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 github: http://www.github.com/hypothesis
 twitter: http://www.twitter.com/hypothes_is
 linkedin: https://www.linkedin.com/company/hypothes.is
+gems:
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
