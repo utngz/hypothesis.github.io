@@ -15,6 +15,7 @@ markup. In an effort to understand how this all might work, I built a small
 Hypothes.is/AnnotatorJS JSON object.
 
 Here's the result (or [view it on RequireBin](http://requirebin.com/?gist=f47e6cfda27afccc03be)):
+
 <iframe width="100%" height="700" src="http://requirebin.com/embed?gist=f47e6cfda27afccc03be" frameborder="0" allowfullscreen></iframe>
 
 The `<textarea>` contents are the most interesting part (so far). There some minimal HTML markup
