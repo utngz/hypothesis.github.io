@@ -1,6 +1,7 @@
 ---
 title: Metrics and KPIs
 author: bigbluehat
+layout: page
 ---
 
 To grow a healthy product born from our project, we need to understand how
