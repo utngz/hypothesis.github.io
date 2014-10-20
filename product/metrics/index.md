@@ -26,9 +26,18 @@ Metrics & KPIs:
 * Annotation bodies
   * largest (char count)
   * smallest (char count)
+  * body-less (highlights)
   * # that contain links
   * # that contain math
   * # that are markdown
   * # that include images
   * # that include emoji
+* Visibility
+  * # that are public
+  * # marked as "only me"
+  * # that are page comments
+  * # that are highlight-based annotations
+  * # that are replies
+    * replies that are public
+    * replies that are "only me"
 
