@@ -240,6 +240,8 @@ A hosted page that displays an annotation and it's comment thread.
 * As a user I would like to be able to link to an annotation for reference or
   sharing.
 
+**Phases**
+
 Iteration 1
 
 - Timestamp
@@ -248,6 +250,28 @@ Iteration 1
 - Same interface as the annotation card.
 
 [Old GitHub Ticket](https://github.com/hypothesis/vision/issues/58)
+
+
+### Account Management
+
+**Description**
+
+[TODO]
+
+**Stories**
+
+* As a user I would like to be able to change my password in order to keep my account secure.
+* As a user I would like to be able to change my email address in order to keep it up to date.
+* As a user I would like to be able to delete my account to remove my data from the service.
+
+**Progress**
+
+Iteration One
+
+- Email/password Change
+- Account deletion (deletion of user data)
+
+[Old GitHub Ticket](https://github.com/hypothesis/vision/issues/69)
 
 ### User Tags
 
