@@ -1,11 +1,11 @@
 ---
-title: Sidebar Features
+title: Hypothesis in the Wild
 author: aron
 layout: page
 ---
 
-Hypothesis in the Wild
-======================
+{{page.title}}
+==============
 
 A collection of urls where Hypothesis is being put to good use:
 
