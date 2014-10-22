@@ -4,8 +4,7 @@ author: aron
 layout: page
 ---
 
-{{page.title}}
-==============
+[![A bear](http://upload.wikimedia.org/wikipedia/commons/4/46/Bear_Alaska_%283%29.jpg)](http://en.wikipedia.org/wiki/Bear#mediaviewer/File:Bear_Alaska_(3).jpg)
 
 A collection of urls where Hypothesis is being put to good use:
 
