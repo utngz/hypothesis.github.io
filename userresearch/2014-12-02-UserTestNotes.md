@@ -41,7 +41,7 @@ Features requested:
 
 ## Topics that came up:
 
-### Chrome Store Permissions {.c0}
+### Chrome Store Permissions
 
 Seemed a little taken aback by the permissions the Chrome Extension
 asked for:
@@ -177,9 +177,7 @@ wrote this foolish article.”
 
 ### The Stream
 
-Came across bug
-[\#1712](https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fhypothesis%2Fh%2Fissues%2F1712&sa=D&sntz=1&usg=AFQjCNF_zPeN8e7D6BHsDMvVtabvWvOU5g),
-a reply didn’t have a link to its parent.
+Came across bug [#1712](https://github.com/hypothesis/h/issues/1712), a reply didn’t have a link to its parent.
 
 -   “What are they annotating? What’s going on?”
 

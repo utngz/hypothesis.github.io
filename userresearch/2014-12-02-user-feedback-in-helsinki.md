@@ -6,21 +6,21 @@ title: User feedback in Helsinki
 
 ### 1: Student (HCI), 20s
 
--   Did not expect having to activate the account; logging in failed without clear reason (\#1660 solved)
+-   Did not expect having to activate the account; logging in failed without clear reason ([#1660](https://github.com/hypothesis/h/issues/1660) solved)
 -   Expect to be able to click ‘only me’ lock icon to make annotation public
 -   Expect icon to show presence of annotations when plugin not activated
--   Clicking an annotation should show its location in the page (\#1634)
+-   Clicking an annotation should show its location in the page ([#1634](https://github.com/hypothesis/h/issues/1634) solved)
 
 ### 2: Student (ML), 20s
 
 -   When hovering a highlight, expect to see the annotation pop up
--   Clicking an annotation should show its location in the page (\#1634)
+-   Clicking an annotation should show its location in the page ([#1634](https://github.com/hypothesis/h/issues/1634) solved)
 
 ### 3: Student/Researcher (ML), 20s
 
 -   Uses highlighting to bookmark sentences, using stream to find them back, using tagging to group them.
 -   Not comfortable sharing thoughts with the whole world, but maybe groups or sharing is nice.
--   Would like button to share directly to email/facebook/twitter/to one person (\#122)
+-   Would like button to share directly to email/facebook/twitter/to one person ([#122](https://github.com/hypothesis/h/issues/122))
 
 ### 4: Student (ML), App developer/entrepreneur, 20s
 
@@ -62,7 +62,7 @@ title: User feedback in Helsinki
 -   Sign in / create account are confusing
 -   Activating account leads to the stream; what’s this? where did the tutorial go?
 -   how to enable it (what’s location bar?)
--   When going to an annotation (via shared link), I want to see it in context of the original page. Key feature. (vision\#87)
+-   When going to an annotation (via shared link), I want to see it in context of the original page. Key feature. ([vision\#87](https://github.com/hypothesis/vision/issues/87))
 -   Can I subscribe/follow people? For example my research group?
 -   Did not see how to know whether there are annotations.
 -   Use case: would like to see annotations for scientific papers.
