@@ -7,6 +7,8 @@ title: 2014-11-26 User Test
 
 ### Graduate Student (HCI), 20’s
 
+[Full Video Link](http://youtu.be/TsqrMx4O1Pk): note, where relevant in the notes I will try to link to time codes in the video so you don’t have to watch the whole thing, only the most relevant parts.
+
 Annotation Habbits:
 
 -   Annotates PDFs a lot, uses Apple’s Preview a lot, doesn’t like it
@@ -127,9 +129,9 @@ highlighting stuff and reading it.”
 
 He made a point of explaining that he often reads by selecting text.
 
-I had him annotate a web page of his choosing, and when it came to
-making highlights he accidentally made one and had difficulty undoing.
-“Oooopps, I didn’t mean to annotate that and now I can’t undo.” He tried
+[I had him annotate a web page of his choosing](http://youtu.be/TsqrMx4O1Pk),
+and when it came to making highlights he accidentally made one and had difficulty
+undoing. “Oooopps, I didn’t mean to annotate that and now I can’t undo.” He tried
 a number of things:
 
 -   Keyboard shortcuts for undo.
