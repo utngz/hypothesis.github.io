@@ -1,0 +1,8 @@
+---
+layout: page
+title: Design@Hypothes.is
+---
+{% assign current_path = page.dir | remove_first: '/' %}
+{% assign posts = site.pages %}
+
+{% include directory_pages.html %}
