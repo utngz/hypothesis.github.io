@@ -7,7 +7,7 @@ domain: project.hypothes.is
 
 markdown: kramdown
 highlighter: pygments
-github: http://www.github.com/hypothesis
+github_url: http://www.github.com/hypothesis
 twitter: http://www.twitter.com/hypothes_is
 linkedin: https://www.linkedin.com/company/hypothes.is
 gems:
