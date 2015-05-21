@@ -17,4 +17,17 @@ title: Hypothes.is Project
       </ul>
     </div>
   </div>
+  <div class="recent-posts">
+    <h1>h Releases</h1>
+    <div class="homepage-posts most-recent">
+      <ul class="posts">
+        {% for release in site.github.releases %}
+          <li>
+          &raquo; <a href="{{ release.html_url }}">{{ release.name }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
 </div>
